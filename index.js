@@ -3,7 +3,7 @@
 
 // init project
 require("dotenv").config();
-const consultarEncabezado = require("./funciones,js");
+const consultarEncabezado = require("./funciones.js");
 const express = require("express");
 const app = express();
 
