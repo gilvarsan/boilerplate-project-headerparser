@@ -22,7 +22,7 @@ app.get("/", function (req, res) {
 
 // your first API endpoint...
 app.get("/api/whoami", function (req, res) {
-  const clientData = consultarEncabezado();
+  const clientData = consultarEncabezado(req);
 
   res.json(clientData);
 });

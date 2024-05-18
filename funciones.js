@@ -1,6 +1,6 @@
 const ip = require("ip");
 
-const consultarEncabezado = () => {
+const consultarEncabezado = (req) => {
   // Obtener la dirección IP
   const ipaddress = ip.address();
 
